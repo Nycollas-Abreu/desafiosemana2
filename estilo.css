@@ -1,0 +1,107 @@
+html,body{
+    margin: 0;
+}
+header{
+    background-color: rgb(194, 189, 189);
+    color: white;
+    height: 60px;
+    width: 100%;
+    position:fixed;
+    z-index:10
+}
+#logo{
+    width: 150px;
+    position: absolute;
+    top: 0px;
+    margin-left: 5%;
+}
+#menu{
+    float: right;
+    margin-right: 5px;
+    list-style: none;
+    margin-top: 0px;
+}
+li{
+    float: left;
+    padding: 20 10 20 10;
+}
+li:hover{
+    background-color: white;
+}
+.botaomenu{
+    text-decoration: none;
+    color: rgb(7, 11, 74);
+    
+}
+#imagem-fundo{
+    background: url(fundo\ 2.jpg);
+    height: 100%;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+#titulo{
+    color: white;
+    padding-top: 20%;
+    font-size: 70px;
+    line-height: 0,6;
+}
+#subtitulo{
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 3px solid white;
+    text-shadow: 1px 1px black;
+}
+#botaocomeçar{
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+#botaocomeçar:hover{
+    background-color: rgb(194, 189, 189);
+    color: rgb(7, 11, 74);
+}
+.icone{
+    width: 100px;
+}
+section{
+    padding: 20px;
+    float:left;
+}
+.destaque{
+    background-color: #f7f7f7;
+}
+.imghosp{
+    width: 90%;
+    height: 30%;
+}
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position:relative;
+}
+.dois{
+    width: 40%;
+}
+.tres{
+    width: 29%;
+    padding: 0 2%;
+}
+.quatro{
+    width: 15%;
+}
+.justificado{
+    text-align: justify;
+}
+.centralizado{
+    text-align: center;
+}
+footer{
+    background-color: blue;
+    float: left;
+    width: 100%;
+}
+
